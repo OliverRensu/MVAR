@@ -18,7 +18,7 @@ Decoupled scale-wise autoregressive modeling
 
 
 ## Training
-The hyperparameter of training is same as VAR
+The hyperparameters of training are same as that in VAR.
 ```python
 # d12
 torchrun --nproc_per_node=8 --nnodes=... --node_rank=... --master_addr=... --master_port=... train.py \
@@ -38,7 +38,7 @@ torchrun --nproc_per_node=8 --nnodes=... --node_rank=... --master_addr=... --mas
 ```
 
 ## Inference
-The pretrained weight is avaiable at [huggingface🤗](https://huggingface.co/OliverRen/M-VAR)
+The pretrained weights are avaiable at [huggingface🤗](https://huggingface.co/OliverRen/M-VAR)
 
 For FID evaluation, we set "cfg=1.5, top_p=0.96, top_k=900, more_smooth=False"
 
