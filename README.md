@@ -1,5 +1,9 @@
 # M-VAR
+[[project page](https://oliverrensu.github.io/project/MVAR/mvar)] | [[paper](https://arxiv.org/abs/2411.10433)] | [[code](https://github.com/OliverRensu/MVAR)]
+
+
 This repository is the official implementation of our [M-VAR: Decoupled Scale-wise Autoregressive Modeling for High-Quality Image Generation](https://arxiv.org/abs/2411.10433)
+
 
 ## Introduction
 There exists recent work in computer vision, named VAR, that proposes a new autoregressive paradigm for image generation. Diverging from the vanilla next-token prediction, VAR structurally reformulates the image generation into a coarse to fine next-scale prediction. 
@@ -47,7 +51,7 @@ For visualizatio, we set "more_smooth=True"
 ## Citation
 If you have any question, feel to to contact [Sucheng Ren](oliverrensu@gmail.com)
 ```
-@misc{ren2024mvardecoupledscalewiseautoregressive,
+@article{ren2024mvardecoupledscalewiseautoregressive,
       title={M-VAR: Decoupled Scale-wise Autoregressive Modeling for High-Quality Image Generation}, 
       author={Sucheng Ren and Yaodong Yu and Nataniel Ruiz and Feng Wang and Alan Yuille and Cihang Xie},
       year={2024},
