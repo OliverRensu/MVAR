@@ -44,10 +44,11 @@ torchrun --nproc_per_node=8 --nnodes=... --node_rank=... --master_addr=... --mas
 ## Inference
 The pretrained weights are avaiable at [huggingface🤗](https://huggingface.co/OliverRen/M-VAR)
 
-For FID evaluation, we set "cfg=1.5, top_p=0.96, top_k=900, more_smooth=False"
+For FID evaluation, we set ``cfg=1.5, top_p=0.96, top_k=900, more_smooth=False``
 
-For visualizatio, we set "more_smooth=True"
+For visualizatio, we set ``more_smooth=True``
 
+For small size model (d16, d20), please set ``attn_l2_norm=False`` in Line 23
 ## Citation
 If you have any question, feel to to contact [Sucheng Ren](oliverrensu@gmail.com)
 ```
